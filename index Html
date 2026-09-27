@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <img 
+            src="https://cdn-icons-png.flaticon.com/512/3135/3135706.png"
+            alt="Budget Tracker Logo"
+            width="70"
+        >
+
+        <h1>My Budget Tracker</h1>
+        <p>Track your daily expenses and manage your money.</p>
+    </header>
+
+    <main>
+
+        <!-- Add Expense Section -->
+        <section class="add-expense-section">
+            <h2>Add Expense</h2>
+
+            <form>
+                <label for="expense-name">Expense Name:</label>
+                <input 
+                    type="text" 
+                    id="expense-name" 
+                    name="expense-name"
+                    placeholder="Enter expense name"
+                >
+
+                <label for="expense-amount">Amount:</label>
+                <input 
+                    type="number" 
+                    id="expense-amount" 
+                    name="expense-amount"
+                    placeholder="Enter amount"
+                >
+
+                <label for="expense-category">Category:</label>
+                <select id="expense-category" name="expense-category">
+                    <option value="Food">Food</option>
+                    <option value="Transport">Transport</option>
+                    <option value="Rent">Rent</option>
+                    <option value="Entertainment">Entertainment</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label for="expense-date">Date:</label>
+                <input 
+                    type="date" 
+                    id="expense-date" 
+                    name="expense-date"
+                >
+
+                <button type="button">Add Expense</button>
+            </form>
+        </section>
+
+
+        <!-- Expenses Section -->
+        <section class="expenses-section">
+            <h2>My Expenses</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Amount</th>
+                        <th>Category</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Lunch</td>
+                        <td>$10</td>
+                        <td>Food</td>
+                        <td>2026-09-20</td>
+                    </tr>
+
+                    <tr>
+                        <td>Bus Fare</td>
+                        <td>$5</td>
+                        <td>Transport</td>
+                        <td>2026-09-21</td>
+                    </tr>
+
+                    <tr>
+                        <td>Electricity</td>
+                        <td>$25</td>
+                        <td>Rent</td>
+                        <td>2026-09-22</td>
+                    </tr>
+
+                    <tr>
+                        <td>Movie</td>
+                        <td>$15</td>
+                        <td>Entertainment</td>
+                        <td>2026-09-23</td>
+                    </tr>
+
+                    <tr>
+                        <td>Books</td>
+                        <td>$20</td>
+                        <td>Other</td>
+                        <td>2026-09-24</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+        <!-- How to Use Section -->
+        <section class="instructions">
+            <details>
+                <summary>How to use this tracker</summary>
+                <p>
+                    Enter the expense name, amount, category, and date in the form.
+                    The expense table below shows sample expenses.
+                    The Add Expense button will become functional when JavaScript
+                    is added in a later week.
+                </p>
+            </details>
+        </section>
+
+
+        <!-- Multimedia Section -->
+        <section class="video-section">
+            <h2>Budgeting Tips</h2>
+
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/HeH9g7fH2vM"
+                title="Budgeting Tips Video"
+                frameborder="0"
+                allowfullscreen>
+            </iframe>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Budget Tracker</p>
+    </footer>
+
+</body>
+</html>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Amount</th>
+            <th>Category</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        ...
+    </tbody>
+</table>
+<form></form>
+<input id="expense-name">
+<input id="expense-amount">
+<select id="expense-category">
+<input id="expense-date">
+<button type="button">Add Expense</button>
+<img 
+    src="..."
+    alt="Budget Tracker Logo"
+    width="70"
+>
+<iframe
+    width="560"
+    height="315"
+    src="..."
+    title="Budgeting Tips Video"
+    frameborder="0"
+    allowfullscreen>
+</iframe>
+<details>
+    <summary>How to use this tracker</summary>
